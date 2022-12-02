@@ -18,7 +18,7 @@ font-size: 24px;
 }
 body{
   margin-left: 10%;
-  background-color: rgb(32, 33, 36);
+  background-color: rgba(21, 21, 21);
   color: white;
 font-family: 'Space Grotesk', sans-serif;
 
@@ -37,12 +37,12 @@ font-size: 14px;
 }
 
 .largetext{
-font-size: 65px;
+font-size: 85px;
 
 }
 
 .smalltext{
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 100;
   line-height: 20px;
   color: rgb(192, 185, 185);
@@ -50,9 +50,7 @@ font-size: 65px;
 }
 
 
-
-
-.grid{ font-size: 35px;
+.grid{ font-size: 45px;
   margin-top: 50px;
   margin-left: -2%;
   display: inline;
@@ -65,7 +63,7 @@ row-gap: 40%;
 
 .exp{
   color: darkgray;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .container{
@@ -74,24 +72,50 @@ row-gap: 40%;
 margin-top: 50px;
 
 }
+ 
 
 .container2{
-  background-color: rgba(49, 49, 50, 0.873);
+
+  background-color: rgba(36, 36, 36);
   padding: 20px;
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   width: fit-content;
   margin-left: -11%;
   padding: 0;
   padding-left: 11%;
+  column-gap: 30%;
+ padding-top: 8%;
+ padding-bottom: 10%;
 }
 
-h2{
-  font-size: 55px;
+.h2{
+  font-size: 70px;
 }
+
 
 p{
   font-size: 14px;
   color: rgb(237, 236, 236);
 }
 
+nav {
+  flex-direction: column;
+  gap: 22px;
+align-items: left;
+  display: flex;
+  margin-left: -12%;
+  font-size: 18px;
+ }
+
+    .footer {
+      background-color: rgba(36,36,36);
+      flex-direction: column;
+      align-items: left;
+      gap: 22px;
+      display: flex;
+      margin-left:-12%;
+      font-size: 18px;
+      
+    }
