@@ -12,7 +12,8 @@ li {
 }
 
 .name{ position: relative;
-right: 76%;
+right: 65%;
+font-size: 24px;
 
 }
 body{
@@ -24,8 +25,15 @@ font-family: 'Space Grotesk', sans-serif;
 }
 
 .line{ text-decoration: underline;
-  line-height: 16px;
+  line-height: 28px;
 
+}
+.line2 {
+  text-decoration: underline;
+  line-height: 20px;
+position: relative;
+left: 55%;
+font-size: 14px;
 }
 
 .largetext{
@@ -37,5 +45,53 @@ font-size: 65px;
   font-size: 14px;
   font-weight: 100;
   line-height: 20px;
+  color: rgb(192, 185, 185);
 
 }
+
+
+
+
+.grid{ font-size: 35px;
+  margin-top: 50px;
+  margin-left: -2%;
+  display: inline;
+display:grid;
+grid-template-columns: 5fr 5fr 5fr ;
+line-height: 30px;
+row-gap: 40%;
+
+}
+
+.exp{
+  color: darkgray;
+  font-size: 14px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+margin-top: 50px;
+
+}
+
+.container2{
+  background-color: rgba(49, 49, 50, 0.873);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  margin-left: -11%;
+  padding: 0;
+  padding-left: 11%;
+}
+
+h2{
+  font-size: 55px;
+}
+
+p{
+  font-size: 14px;
+  color: rgb(237, 236, 236);
+}
+
