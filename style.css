@@ -1,7 +1,41 @@
+navbar{ font-size: 18px; margin-top:10%;
+}
+
+ul{
+  text-align: right;
+  margin-right: 125px;
+}
+li {
+  display:inline;
+  margin-left: 25px;
+
+}
+
+.name{ position: relative;
+right: 73%;
+
+}
 body{
+  margin-left: 10%;
   background-color: rgb(32, 33, 36);
   color: white;
+font-family: 'Space Grotesk', sans-serif;
 
+}
 
+.line{ text-decoration: underline;
+  line-height: 16px;
+
+}
+
+.largetext{
+font-size: 65px;
+
+}
+
+.smalltext{
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
 
 }
