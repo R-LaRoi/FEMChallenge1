@@ -11,6 +11,10 @@ li {
 
 }
 
+.header{
+  margin-top: -20%;
+}
+
 .name{ position: relative;
 right: 65%;
 font-size: 24px;
@@ -21,15 +25,30 @@ body{
   background-color: rgba(21, 21, 21);
   color: white;
 font-family: 'Space Grotesk', sans-serif;
+font-weight: 700;
 
 }
 
-.line{ text-decoration: underline;
-  line-height: 28px;
+.rings{
+position: relative;
+left:-40%;
+
+}
+
+hr{
+  width: 85%;
+  position: relative;
+right:10%;
+}
+
+.line{
+  line-height: 20px;
+  border-bottom: 5px solid rgb(79, 225, 160);
 
 }
 .line2 {
-  text-decoration: underline;
+  width: min-content;
+border-bottom: 1px solid rgb(79, 225, 160);
   line-height: 20px;
 position: relative;
 left: 55%;
@@ -45,18 +64,17 @@ font-size: 85px;
   font-size: 18px;
   font-weight: 100;
   line-height: 20px;
-  color: rgb(192, 185, 185);
+  color: rgb(243, 243, 243);
 
 }
 
-
-.grid{ font-size: 45px;
+.skills{ font-size: 45px;
   margin-top: 50px;
   margin-left: -2%;
   display: inline;
 display:grid;
-grid-template-columns: 5fr 5fr 5fr ;
-line-height: 30px;
+grid-template-columns: .4fr .4fr .6fr ;
+line-height: 35px;
 row-gap: 40%;
 
 }
@@ -70,33 +88,31 @@ row-gap: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 margin-top: 50px;
+column-gap: 30px;
+row-gap: 30px;
 
 }
  
-
 .container2{
-
   background-color: rgba(36, 36, 36);
-  padding: 20px;
   display: grid;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   width: fit-content;
   margin-left: -11%;
-  padding: 0;
   padding-left: 11%;
   column-gap: 30%;
  padding-top: 8%;
- padding-bottom: 10%;
+ padding-bottom: 15%;
+
 }
 
 .h2{
-  font-size: 70px;
+  font-size: 90px;
 }
 
 
 p{
-  font-size: 14px;
+  font-size: 18px;
   color: rgb(237, 236, 236);
 }
 
@@ -118,4 +134,50 @@ align-items: left;
       margin-left:-12%;
       font-size: 18px;
       
+    }
+
+    input{
+      border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        padding-top: 20px;
+        padding-bottom: 10%;
+        padding-left: 24px;
+        background-color: rgba(36, 36, 36);
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        width: 90%;
+        font-size: 16px;
+    }
+#notes{
+  padding-bottom: 15%;
+}
+
+    button{
+      border-radius: none;
+      border-bottom-color: rgb(79, 225, 160);
+background-color: rgba(36, 36, 36);
+color: #fff;
+font-size: 15px;
+font-family: 'Space Grotesk',
+  sans-serif;
+margin: 18px;
+
+    }
+
+    img{
+      max-width: 100%;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .sec-three{ margin-top: 5%;
+
+    }
+
+    .rings{ position: relative;
+width: 65%;
+
     }
