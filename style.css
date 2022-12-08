@@ -1,6 +1,6 @@
 navbar{ font-size: 18px; margin-top:10%;
   display: inline;
- position: absolute;
+
 }
 
 ul{
@@ -24,7 +24,7 @@ li {
   position: relative;
   margin-top: -25%;
   left: 50%;
- 
+
 }
 
 .name{ position: relative;
@@ -63,7 +63,7 @@ font-size: 14px;
 }
 
 .largetext{
-font-size: 85px;
+font-size: 80px;
 
 }
 
@@ -190,6 +190,12 @@ width: 55%;
 left: -40%;
 
     }
+             .rings2 {
+               position: relative;
+               width: 100%;
+               left: -60%;
+      
+             }
 
     .sec-two{
       padding-top: 10%;
