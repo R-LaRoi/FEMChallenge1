@@ -1,15 +1,23 @@
-navbar{ font-size: 18px; margin-top:10%;
-  display: inline;
+nav{ font-size: 24px; margin-top:0 auto;
+  position: relative;
+  z-index: 10;
 
 }
 
+i{
+  color: #fff;
+}
 ul{
   text-align: right;
-  margin-right: 125px;
+  margin-right: 300px;
+    
+
 }
 li {
   display:inline;
-  margin-left: 25px;
+  margin-left: 15px;
+
+  font-size: 25px;
 
 }
 
@@ -24,6 +32,7 @@ li {
   position: relative;
   margin-top: -25%;
   left: 50%;
+
 
 }
 
